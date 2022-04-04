@@ -1,0 +1,63 @@
+.glass {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    min-width: 320;
+    display: inline-block;
+}
+
+.card-header {
+    color: aliceblue;
+    margin: 0px 50px 10px 50px;
+    font-size: 20px;
+}
+
+.level,
+.skill {
+    font-size: 16px;
+    color: aliceblue;
+}
+
+.skill {
+    padding-left: 20px;
+    display: inline-block;
+    /* vertical-align: middle; */
+}
+
+.skill-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.skill-item {
+    display: inline-block;
+    flex-direction: column;
+}
+
+.level {
+    display: inline-block;
+    margin: 0px 0px 0px 44px;
+    color: rgb(142, 142, 142);
+
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+.neon:hover~.skill {
+    color: var(--neon-color-green);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-green)) drop-shadow(0 0 5px var(--neon-light-green)) drop-shadow(0 0 15px var(--neon-light-green));
+}
+
+.test {
+    font-size: 40px;
+}

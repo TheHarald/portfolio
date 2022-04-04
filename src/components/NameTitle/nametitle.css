@@ -1,0 +1,21 @@
+.letter {
+    font-size: 60px;
+    font-weight: bold;
+    color: aliceblue;
+    display: inline-block;
+    transition: 0.5s;
+    cursor: pointer;
+    white-space: pre;
+}
+
+.letter:hover {
+    color: var(--neon-color-pink);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-pink)) drop-shadow(0 0 5px var(--neon-light-pink)) drop-shadow(0 0 15px var(--neon-light-pink));
+    transform: translateY(-15px);
+    transition: 0.5s;
+}
+
+#title {
+    display: inline-block;
+}

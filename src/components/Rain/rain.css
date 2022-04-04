@@ -1,0 +1,25 @@
+.particle {
+    cursor: pointer;
+    border-radius: 6px;
+    width: 12px;
+    height: 12px;
+    background-color: #2bff2e;
+    position: absolute;
+    right: 100px;
+    top: -100px;
+    animation: falling 6s linear infinite;
+    color: var(--neon-color-green);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-green)) drop-shadow(0 0 5px var(--neon-light-green)) drop-shadow(0 0 15px var(--neon-light-green));
+}
+
+
+
+
+
+@keyframes falling {
+    100% {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}

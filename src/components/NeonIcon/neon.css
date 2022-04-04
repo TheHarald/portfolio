@@ -1,0 +1,10 @@
+.neon {
+    color: var(--background-color);
+    display: inline-block;
+}
+
+.neon:hover {
+    color: var(--neon-color-green);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-green)) drop-shadow(0 0 5px var(--neon-light-green)) drop-shadow(0 0 15px var(--neon-light-green));
+}

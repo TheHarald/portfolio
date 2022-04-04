@@ -1,0 +1,28 @@
+.panel {
+    width: 320px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, .15);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-item {
+    font-size: 40px;
+    color: var(--background-color);
+    display: inline-block;
+}
+
+.navigation-item:hover {
+    color: var(--neon-color-pink);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-pink)) drop-shadow(0 0 5px var(--neon-light-pink)) drop-shadow(0 0 15px var(--neon-light-pink));
+}
