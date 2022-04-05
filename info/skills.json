@@ -63,8 +63,8 @@
                 "level": "Продвинутый"
             },
             {
-                "icon": "save",
-                "skill": "Docker",
+                "icon": "edit",
+                "skill": "Docker23",
                 "level": "Средний"
             }
         ]
