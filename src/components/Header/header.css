@@ -42,8 +42,21 @@
 }
 
 .header__main-image-background {
-    background: linear-gradient(#ffffff, #24a5d4);
+    /* background: linear-gradient(#ffffff, #24a5d4);
     opacity: 0.7;
     border-top-right-radius: 80px;
-    border-top-left-radius: 80px;
+    border-top-left-radius: 80px; */
+    position: relative;
+}
+
+.header__main-image {
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header__background {
+    position: relative;
+    width: 1000px;
 }

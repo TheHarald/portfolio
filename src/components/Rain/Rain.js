@@ -13,24 +13,25 @@ function Rain(props) {
 
     }
 
+    function createPrticles(count) {
+        let particles = [];
+        for (let i = 0; i < count; i++) {
+            particles.push(randPos())
+        }
+        return particles
+    }
+
     function kill() {
         console.log('work')
     }
+
     return (
         <div className='water-drop'>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-            <div className='particle' onClick={kill} style={randPos()}></div>
-
+            {
+                createPrticles(13).map((style, index) => {
+                    return <div key={index} className='particle' onClick={kill} style={style}></div>
+                })
+            }
 
         </div>
     );

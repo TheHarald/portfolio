@@ -1,6 +1,7 @@
 import React from 'react';
 import NameTitle from '../NameTitle/NameTitle';
 import './header.css'
+import { ReactComponent as Background } from '../../assets/back.svg';
 
 function Header(props) {
     const showCV = () => {
@@ -13,7 +14,8 @@ function Header(props) {
             <h4 className='header__post'>Frontend разработчик</h4>
             <button onClick={showCV} className='header__cv-button'>Резюме hh.ru</button>
             <div className='header__main-image-background'>
-                <img className='header__main-image' src='https://freepikpsd.com/file/2019/10/man-smile-png-1-Transparent-Images.png' />
+                <img className='header__main-image' src='https://freepikpsd.com/file/2019/10/man-cartoon-png-2-Transparent-Images.png' />
+                <Background className='header__background' />
             </div>
         </div>
     );

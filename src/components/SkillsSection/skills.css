@@ -1,0 +1,20 @@
+.skills-section__header {
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.skills-section__header:hover {
+    color: var(--neon-color-green);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-green)) drop-shadow(0 0 5px var(--neon-light-green)) drop-shadow(0 0 15px var(--neon-light-green));
+}
+
+.skills-section__cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
