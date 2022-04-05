@@ -4,7 +4,6 @@ import './style.css'
 
 
 function Card({ title, skills }) {
-    console.log(skills)
     return (
         <div className='glass'>
             <h3 className='card-header'>{title}</h3>
