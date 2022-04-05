@@ -6,11 +6,12 @@
 .pnp.js
 
 # testing
+.firebase
 /coverage
-
+*.log
 # production
 /build
-
+.github
 # misc
 .DS_Store
 .env.local

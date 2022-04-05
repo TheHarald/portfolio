@@ -5,10 +5,10 @@ function Rain(props) {
     function randPos() {
         let windowWidth = window.innerWidth;
         let horizontalPosition = Math.floor(Math.random() * (windowWidth - 50) + 30)
-        let fallTime = Math.floor(Math.random() * 10 + 5)
+        let fallTime = Math.floor(Math.random() * 10000 + 10000)
         return {
             left: `${horizontalPosition}px`,
-            animation: `falling ${fallTime}s linear infinite`
+            animation: `falling ${fallTime}ms linear infinite`
         }
 
     }
