@@ -77,6 +77,10 @@ function SkillsSection(props) {
     }
 
 
+    console.log(JSON.stringify(frontSkills))
+    console.log(JSON.stringify(designSkills))
+    console.log(JSON.stringify(hardSkills))
+
     return (
         <div className='skills-section'>
             <h2 className='skills-section__header'>Навыки</h2>

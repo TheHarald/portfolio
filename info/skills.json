@@ -1,0 +1,72 @@
+{
+    "frontendSkills": {
+        "title": "Fronend - разработка",
+        "skills": [
+            {
+                "icon": "save",
+                "skill": "JavaScript",
+                "level": "Средний"
+            },
+            {
+                "icon": "save",
+                "skill": "CSS",
+                "level": "Продвинутый"
+            },
+            {
+                "icon": "save",
+                "skill": "HTML",
+                "level": "Продвинутый"
+            },
+            {
+                "icon": "save",
+                "skill": "BEM",
+                "level": "Базовый"
+            },
+            {
+                "icon": "save",
+                "skill": "React",
+                "level": "Спедний"
+            }
+        ]
+    },
+    "designSkills": {
+        "title": "UX/UI Дизайн",
+        "skills": [
+            {
+                "icon": "save",
+                "skill": "Figma",
+                "level": "Продвинутый"
+            },
+            {
+                "icon": "save",
+                "skill": "Adobe Illustrator",
+                "level": "Средний"
+            },
+            {
+                "icon": "save",
+                "skill": "Adobe Photoshop",
+                "level": "Средний"
+            }
+        ]
+    },
+    "hardSkills": {
+        "title": "Hard - скилы",
+        "skills": [
+            {
+                "icon": "save",
+                "skill": "Git",
+                "level": "Средний"
+            },
+            {
+                "icon": "save",
+                "skill": "JSON",
+                "level": "Продвинутый"
+            },
+            {
+                "icon": "save",
+                "skill": "Docker",
+                "level": "Средний"
+            }
+        ]
+    }
+}

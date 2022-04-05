@@ -1,0 +1,10 @@
+.link__github {
+    width: 48px;
+    height: 48px;
+    fill: white;
+}
+
+.link__github:hover {
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-pink)) drop-shadow(0 0 5px var(--neon-light-pink)) drop-shadow(0 0 15px var(--neon-light-pink));
+}

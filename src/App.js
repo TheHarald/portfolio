@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from './components/Card/Card';
+import GitHubLink from './components/GitHubLink/GitHubLink';
 import Header from './components/Header/Header';
 import NavigationPanel from './components/NavigationPanel/NavigationPanel';
 import Rain from './components/Rain/Rain';
@@ -13,6 +14,8 @@ function App() {
     <section  >
       <a name="about"></a>
       <Header />
+      <GitHubLink url={'https://github.com/TheHarald'} />
+
       <NavigationPanel />
       <SkillsSection />
       <Rain />
