@@ -32,8 +32,6 @@ function SkillsSection(props) {
                     <Card title={skills.frontendSkills.title} skills={skills.frontendSkills.skills} />
                     <Card title={skills.designSkills.title} skills={skills.designSkills.skills} />
                     <Card title={skills.hardSkills.title} skills={skills.hardSkills.skills} />
-                    <Card title={skills.hardSkills.title} skills={skills.hardSkills.skills} />
-                    <Card title={skills.hardSkills.title} skills={skills.hardSkills.skills} />
                 </div>}
         </div>
     );

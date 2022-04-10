@@ -2,9 +2,9 @@ import React from 'react';
 import './neon.css'
 import '../../index.css'
 
-function NeonIcon({ icon, style }) {
+function NeonIcon({ icon, className }) {
     return (
-        <span className={`material-icons neon ${style}`}>{icon}</span>
+        <span className={`material-icons neon ${className}`}>{icon}</span>
     );
 }
 

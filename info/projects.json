@@ -1,0 +1,28 @@
+[
+    {
+        "projectName": "Graph",
+        "imageUrl": "url",
+        "description": "Description",
+        "stak": [
+            "one",
+            "two",
+            "three",
+            "four"
+        ],
+        "ghLink": "link",
+        "previewLink": "link"
+    },
+    {
+        "projectName": "Graph2",
+        "imageUrl": "url2",
+        "description": "Description2",
+        "stak": [
+            "one2",
+            "two2",
+            "three2",
+            "four2"
+        ],
+        "ghLink": "link2",
+        "previewLink": "link2"
+    }
+]

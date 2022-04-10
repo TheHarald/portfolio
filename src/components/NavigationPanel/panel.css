@@ -17,7 +17,7 @@
 
 .navigation-item {
     font-size: 40px;
-    color: var(--background-color);
+    color: var(--white-icon-color);
     display: inline-block;
 }
 

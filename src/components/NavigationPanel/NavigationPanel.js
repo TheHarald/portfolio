@@ -6,19 +6,19 @@ function NavigationPanel(props) {
     return (
         <div className='panel'>
             <a href='#about'>
-                <NeonIcon icon={'person'} style={'navigation-item'} />
+                <NeonIcon icon={'person'} className={'navigation-item'} />
             </a>
             <a href='#about'>
-                <NeonIcon icon={'emoji_objects'} style={'navigation-item'} />
+                <NeonIcon icon={'emoji_objects'} className={'navigation-item'} />
             </a>
             <a href='#about'>
-                <NeonIcon icon={'inventory'} style={'navigation-item'} />
+                <NeonIcon icon={'inventory'} className={'navigation-item'} />
             </a>
             <a href='#about'>
-                <NeonIcon icon={'report'} style={'navigation-item'} />
+                <NeonIcon icon={'report'} className={'navigation-item'} />
             </a>
             <a href='#about'>
-                <NeonIcon icon={'weekend'} style={'navigation-item'} />
+                <NeonIcon icon={'weekend'} className={'navigation-item'} />
             </a>
         </div>
     );
