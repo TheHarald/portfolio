@@ -26,10 +26,10 @@ function PrjojectSection() {
 
 
     return (
-        <div className='skills-section'>
-            <h2 className='skills-section__header'>Навыки</h2>
+        <div className='section'>
+            <h2 className='section__header'>Проекты</h2>
             {isLoading ? <p>Loading</p> :
-                <div className='skills-section__cards'>
+                <div className='section__cards'>
                     {projects.map((item, index) => {
                         console.log(projects)
                         return <Project
@@ -42,14 +42,6 @@ function PrjojectSection() {
                             previewLink={item.previewLink}
                         />
                     })}
-                    <Project
-                        imageUrl={'https://aerospaceexport.com/wp-content/uploads/2019/12/project-management-I.jpg'}
-                        projectName={'Graph'}
-                        description={'Очень краткое описание'}
-                        stack={['One', 'Two', 'Three']}
-                        ghLink={'link'}
-                        previewLink={'link2'}
-                    />
                 </div>}
         </div>
     );

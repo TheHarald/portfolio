@@ -16,18 +16,10 @@ function App() {
     <section  >
       <a name="about"></a>
       <Header />
-      {/* <Project
-        imageUrl={'https://aerospaceexport.com/wp-content/uploads/2019/12/project-management-I.jpg'}
-        projectName={'Graph'}
-        description={'Очень краткое описание'}
-        stack={['One', 'Two', 'Three']}
-        ghLink={'link'}
-        previewLink={'link2'}
-      /> */}
-      <PrjojectSection />
-      <NavigationPanel />
       <SkillsSection />
+      <PrjojectSection />
       <Rain />
+      <NavigationPanel />
 
     </section >
 

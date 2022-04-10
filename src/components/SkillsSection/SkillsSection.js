@@ -25,10 +25,10 @@ function SkillsSection(props) {
     }, [])
 
     return (
-        <div className='skills-section'>
-            <h2 className='skills-section__header'>Навыки</h2>
+        <div className='section'>
+            <h2 className='section__header'>Навыки</h2>
             {isLoading ? <p>Loading</p> :
-                <div className='skills-section__cards'>
+                <div className='section__cards'>
                     <Card title={skills.frontendSkills.title} skills={skills.frontendSkills.skills} />
                     <Card title={skills.designSkills.title} skills={skills.designSkills.skills} />
                     <Card title={skills.hardSkills.title} skills={skills.hardSkills.skills} />
