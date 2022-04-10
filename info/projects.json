@@ -3,7 +3,7 @@
         "projectName": "Graph",
         "imageUrl": "url",
         "description": "Description",
-        "stak": [
+        "stack": [
             "one",
             "two",
             "three",
@@ -16,7 +16,7 @@
         "projectName": "Graph2",
         "imageUrl": "url2",
         "description": "Description2",
-        "stak": [
+        "stack": [
             "one2",
             "two2",
             "three2",

@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Project from '../Project/Project';
 
-function PrjojectSections(props) {
+function PrjojectSection() {
 
-    const url = 'https://raw.githubusercontent.com/TheHarald/portfolio/master/info/skills.json'
+    const url = 'https://raw.githubusercontent.com/TheHarald/portfolio/master/info/projects.json'
 
     const [projects, setSProjects] = useState();
     const [isLoading, setIsLoading] = useState(true);
@@ -31,7 +31,10 @@ function PrjojectSections(props) {
             {isLoading ? <p>Loading</p> :
                 <div className='skills-section__cards'>
                     {projects.map((item, index) => {
+                        console.log(projects)
                         return <Project
+                            key={index}
+                            imageUrl={item.imageUrl}
                             projectName={item.projectName}
                             description={item.description}
                             stack={item.stack}
@@ -39,9 +42,17 @@ function PrjojectSections(props) {
                             previewLink={item.previewLink}
                         />
                     })}
+                    <Project
+                        imageUrl={'https://aerospaceexport.com/wp-content/uploads/2019/12/project-management-I.jpg'}
+                        projectName={'Graph'}
+                        description={'Очень краткое описание'}
+                        stack={['One', 'Two', 'Three']}
+                        ghLink={'link'}
+                        previewLink={'link2'}
+                    />
                 </div>}
         </div>
     );
 }
 
-export default PrjojectSections;
+export default PrjojectSection;
