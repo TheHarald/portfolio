@@ -4,6 +4,7 @@ import GitHubLink from '../GitHubLink/GitHubLink';
 import NeonIcon from '../NeonIcon/NeonIcon';
 import Tag from '../Tag/Tag';
 import './project.css'
+import { Routes, Route, Link } from "react-router-dom";
 
 function Project({ imageUrl, projectName, description, stack, ghLink, previewLink }) {
     return (
@@ -29,6 +30,8 @@ function Project({ imageUrl, projectName, description, stack, ghLink, previewLin
                 </div>
 
             </div>
+            <Link className='header__cv-button smaller' to={"/project"}>Подробнее</Link >
+
         </div>
     );
 }

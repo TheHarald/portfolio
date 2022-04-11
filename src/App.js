@@ -8,20 +8,19 @@ import PrjojectSection from './components/ProjectsSection/PrjojectSection';
 import Rain from './components/Rain/Rain';
 import SkillsSection from './components/SkillsSection/SkillsSection';
 import './index.css';
+import { Routes, Route, Link } from "react-router-dom";
+import ProjectPage from "./pages/ProjectPage";
+import MainPage from './pages/MainPage';
 
 
 function App() {
 
   return (
-    <section  >
-      <a name="about"></a>
-      <Header />
-      <SkillsSection />
-      <PrjojectSection />
-      <Rain />
-      <NavigationPanel />
+    <Routes>
+      <Route path='/' element={<MainPage />} />
+      <Route path='/project' element={<ProjectPage />} />
 
-    </section >
+    </Routes>
 
   );
 }

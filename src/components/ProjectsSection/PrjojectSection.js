@@ -27,6 +27,7 @@ function PrjojectSection() {
 
     return (
         <div className='section'>
+
             <h2 className='section__header'>Проекты</h2>
             {isLoading ? <p>Loading</p> :
                 <div className='section__cards'>
