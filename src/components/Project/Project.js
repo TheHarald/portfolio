@@ -1,4 +1,3 @@
-import { GitHub } from '@material-ui/icons';
 import React from 'react';
 import GitHubLink from '../GitHubLink/GitHubLink';
 import NeonIcon from '../NeonIcon/NeonIcon';
@@ -30,7 +29,7 @@ function Project({ imageUrl, projectName, description, stack, ghLink, previewLin
                 </div>
 
             </div>
-            <Link className='header__cv-button smaller' to={"/project"}>Подробнее</Link >
+            <Link className='header__cv-button smaller' to={`/project`}>Подробнее</Link >
 
         </div>
     );

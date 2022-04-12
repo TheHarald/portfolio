@@ -9,7 +9,7 @@ import Rain from '../components/Rain/Rain';
 import SkillsSection from '../components/SkillsSection/SkillsSection';
 import '../index.css';
 import { Routes, Route, Link } from "react-router-dom";
-import ProjectPage from "../pages/ProjectPage";
+import ProjectPage from "./ProjectPage/ProjectPage";
 
 function MainPage(props) {
     return (

@@ -32,7 +32,6 @@ function PrjojectSection() {
             {isLoading ? <p>Loading</p> :
                 <div className='section__cards'>
                     {projects.map((item, index) => {
-                        console.log(projects)
                         return <Project
                             key={index}
                             imageUrl={item.imageUrl}

@@ -1,0 +1,44 @@
+.project-page__back {
+    font-size: 48px;
+    color: var(--white-icon-color);
+}
+
+.project-page__back:hover {
+    color: var(--white-icon-color);
+}
+
+.project-page__title {
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white-icon-color);
+}
+
+.project-page__link {
+
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    left: 20px;
+    top: 20px;
+}
+
+.project-page__link:hover {
+    color: var(--neon-color-pink);
+    filter:
+        drop-shadow(0 0 2px var(--neon-light-pink)) drop-shadow(0 0 5px var(--neon-light-pink)) drop-shadow(0 0 15px var(--neon-light-pink));
+}
+
+.project-page__name {
+    font-size: 40px;
+    color: var(--white-icon-color);
+}
+
+.project-page__header {
+    display: flex;
+    padding: 20px 20px;
+    position: relative;
+    justify-content: center;
+}

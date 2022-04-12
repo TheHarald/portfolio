@@ -1,0 +1,18 @@
+.usability-card {
+    padding: 40px;
+    display: inline-flex;
+    flex-direction: column;
+    border-radius: 16px;
+    background: linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.3));
+    gap: 20px;
+}
+
+.usability-card__header {
+    font-size: 40px;
+    color: var(--white-text-color);
+}
+
+.usability-card__description {
+    font-size: 20px;
+    color: var(--white-text-color);
+}
